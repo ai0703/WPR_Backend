@@ -44,9 +44,10 @@ env/
 ehthumbs.db
 Thumbs.db
 
-# Firebase credentials (keep example but ignore actual credentials)
+# Firebase credentials (never commit actual credentials)
 wua-db-firebase-adminsdk-*.json
-!wua-db-firebase-adminsdk-fbsvc-1e7912dc08.json
+firebase-credentials.json
+service-account-key.json
 
 # Logs
 *.log
