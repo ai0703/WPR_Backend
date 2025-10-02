@@ -1,0 +1,2368 @@
+{
+  "runs": {
+    "n8n_2025-09-08 00:00:00_2025-09-14 23:59:59": {
+      "pipeline_progression": {
+        "chart_data": {
+          "labels": [
+            "3 weeks ago",
+            "2 weeks ago",
+            "1 week ago",
+            "This week"
+          ],
+          "series": [
+            {
+              "data": [
+                70200,
+                49800,
+                49800,
+                49800
+              ],
+              "name": "Lore H."
+            },
+            {
+              "data": [
+                324550,
+                324550,
+                324550,
+                397750
+              ],
+              "name": "Menno Hoek"
+            },
+            {
+              "data": [
+                23800,
+                24800,
+                24800,
+                24800
+              ],
+              "name": "Merel Schouten"
+            },
+            {
+              "data": [
+                418550,
+                399150,
+                399150,
+                472350
+              ],
+              "name": "Total"
+            }
+          ],
+          "units": "€ weighted"
+        }
+      },
+      "qualification_weighted_pipeline": {
+        "ai_key_differences_analysis": {
+          "pipeline_report": {
+            "ai_key_differences_prompt": "You are provided weekly weighted pipeline snapshots (this week vs last week).\nTotals: last week €832,735, this week €835,735 (Δ +3000).\nFor each stage you have current/previous values, absolute & % change, and top contributing deals.\nWrite: (1) a concise overview paragraph of the general trend, (2) 3–5 bullets with the biggest positive/negative stage changes and notable deals, and (3) a short conclusion on pipeline health and next focus.\nKeep it factual and succinct for a leadership slide.",
+            "bullet_points": [
+              "Total moved from €832,735 to €835,735 (+3000).",
+              "Top positive stage: Negotiate (Δ €3,000).",
+              "Top negative stage: Discover (Δ €0).",
+              "Largest deal movers are included per stage; focus on progressing mid-to-late stages to sustain momentum."
+            ],
+            "overview_paragraph": "This week’s weighted pipeline increased by €3,000, with the largest positive movement in Negotiate.",
+            "stage_changes": [
+              {
+                "change_absolute": 3000,
+                "change_percent": 1.5,
+                "current_value": 196800,
+                "previous_value": 193800,
+                "stage": "Negotiate",
+                "top_contributors": [
+                  {
+                    "change_type": "advanced/new",
+                    "deal_title": "Nationale Nederlanden deal",
+                    "note": "Stage Propose → Negotiate, Δ +3000",
+                    "weighted_value": 48000
+                  }
+                ]
+              },
+              {
+                "change_absolute": 0,
+                "change_percent": 0,
+                "current_value": 355850,
+                "previous_value": 355850,
+                "stage": "Discover",
+                "top_contributors": [
+                  {
+                    "change_type": "unchanged",
+                    "deal_title": "Buckaroo deal - Bart van Wijk & Kevin Wetzel - 2025",
+                    "note": "Stage Discover → Discover, Δ +0",
+                    "weighted_value": 3300
+                  }
+                ]
+              },
+              {
+                "change_absolute": 0,
+                "change_percent": 0,
+                "current_value": 182610,
+                "previous_value": 182610,
+                "stage": "Assess",
+                "top_contributors": [
+                  {
+                    "change_type": "unchanged",
+                    "deal_title": "UX -- Meewind",
+                    "note": "Stage Assess → Assess, Δ +0",
+                    "weighted_value": 700
+                  },
+                  {
+                    "change_type": "unchanged",
+                    "deal_title": "Sunny Cars Usability (rapporten upselling) deal",
+                    "note": "Stage Assess → Assess, Δ +0",
+                    "weighted_value": 1800
+                  }
+                ]
+              },
+              {
+                "change_absolute": 0,
+                "change_percent": 0,
+                "current_value": 90050,
+                "previous_value": 90050,
+                "stage": "Develop",
+                "top_contributors": [
+                  {
+                    "change_type": "unchanged",
+                    "deal_title": "Jeroen Voskuil van Vereniging Eigen Huis",
+                    "note": "Stage Develop → Develop, Δ +0",
+                    "weighted_value": 875
+                  },
+                  {
+                    "change_type": "unchanged",
+                    "deal_title": "Verivox GmbH deal",
+                    "note": "Stage Develop → Develop, Δ +0",
+                    "weighted_value": 6000
+                  },
+                  {
+                    "change_type": "unchanged",
+                    "deal_title": "Koninklijke Gazelle Rijwielfabriek 2025 BV deal",
+                    "note": "Stage Develop → Develop, Δ +0",
+                    "weighted_value": 2750
+                  }
+                ]
+              },
+              {
+                "change_absolute": 0,
+                "change_percent": 0,
+                "current_value": 10425,
+                "previous_value": 10425,
+                "stage": "Propose",
+                "top_contributors": [
+                  {
+                    "change_type": "advanced/new",
+                    "deal_title": "Nationale Nederlanden deal",
+                    "note": "Stage Propose → Negotiate, Δ +3000",
+                    "weighted_value": 48000
+                  }
+                ]
+              },
+              {
+                "change_absolute": 0,
+                "change_percent": 0,
+                "current_value": 0,
+                "previous_value": 0,
+                "stage": "Close"
+              }
+            ]
+          }
+        },
+        "top_movers": [
+          {
+            "delta": 3000,
+            "month": "Sep",
+            "stage_from": "Propose",
+            "stage_to": "Negotiate",
+            "title": "Nationale Nederlanden deal",
+            "week_from": 45000,
+            "week_to": 48000
+          },
+          {
+            "delta": 0,
+            "month": "Jan",
+            "stage_from": "Assess",
+            "stage_to": "Assess",
+            "title": "UX -- Meewind",
+            "week_from": 700,
+            "week_to": 700
+          },
+          {
+            "delta": 0,
+            "month": "Nov",
+            "stage_from": "Develop",
+            "stage_to": "Develop",
+            "title": "Jeroen Voskuil van Vereniging Eigen Huis",
+            "week_from": 875,
+            "week_to": 875
+          },
+          {
+            "delta": 0,
+            "month": "Mar",
+            "stage_from": "Discover",
+            "stage_to": "Discover",
+            "title": "Buckaroo deal - Bart van Wijk & Kevin Wetzel  - 2025",
+            "week_from": 3300,
+            "week_to": 3300
+          },
+          {
+            "delta": 0,
+            "month": "Oct",
+            "stage_from": "Develop",
+            "stage_to": "Develop",
+            "title": "Verivox GmbH deal",
+            "week_from": 6000,
+            "week_to": 6000
+          },
+          {
+            "delta": 0,
+            "month": "Oct",
+            "stage_from": "Develop",
+            "stage_to": "Develop",
+            "title": "Koninklijke Gazelle Rijwielfabriek 2025 BV deal",
+            "week_from": 2750,
+            "week_to": 2750
+          },
+          {
+            "delta": 0,
+            "month": "Dec",
+            "stage_from": "Develop",
+            "stage_to": "Develop",
+            "title": "Rogier Lanting van Douglas-hout.nl  WP Winnen in de markt 2024",
+            "week_from": 8750,
+            "week_to": 8750
+          },
+          {
+            "delta": 0,
+            "month": "Oct",
+            "stage_from": "Assess",
+            "stage_to": "Assess",
+            "title": "Sunny Cars Usability (rapporten upselling) deal",
+            "week_from": 1800,
+            "week_to": 1800
+          }
+        ],
+        "totals": "{\"last_week\": 832735, \"this_week\": 835735, \"delta\": 3000}",
+        "weighted_last_week": {
+          "Assess": {
+            "Apr": 0,
+            "Aug": 45000,
+            "Dec": 84360,
+            "Feb": 3000,
+            "Jan": 700,
+            "Jul": 0,
+            "Jun": 0,
+            "Mar": 0,
+            "May": 0,
+            "Nov": 30000,
+            "Oct": 3800,
+            "Sep": 15750
+          },
+          "Close": {
+            "Apr": 0,
+            "Aug": 0,
+            "Dec": 0,
+            "Feb": 0,
+            "Jan": 0,
+            "Jul": 0,
+            "Jun": 0,
+            "Mar": 0,
+            "May": 0,
+            "Nov": 0,
+            "Oct": 0,
+            "Sep": 0
+          },
+          "Develop": {
+            "Apr": 0,
+            "Aug": 0,
+            "Dec": 11125,
+            "Feb": 0,
+            "Jan": 7500,
+            "Jul": 0,
+            "Jun": 0,
+            "Mar": 0,
+            "May": 0,
+            "Nov": 41375,
+            "Oct": 30050,
+            "Sep": 0
+          },
+          "Discover": {
+            "Apr": 0,
+            "Aug": 0,
+            "Dec": 164275,
+            "Feb": 0,
+            "Jan": 0,
+            "Jul": 0,
+            "Jun": 0,
+            "Mar": 3300,
+            "May": 0,
+            "Nov": 170250,
+            "Oct": 18025,
+            "Sep": 0
+          },
+          "Negotiate": {
+            "Apr": 0,
+            "Aug": 0,
+            "Dec": 0,
+            "Feb": 0,
+            "Jan": 0,
+            "Jul": 0,
+            "Jun": 0,
+            "Mar": 0,
+            "May": 0,
+            "Nov": 0,
+            "Oct": 148800,
+            "Sep": 45000
+          },
+          "Propose": {
+            "Apr": 0,
+            "Aug": 0,
+            "Dec": 0,
+            "Feb": 0,
+            "Jan": 0,
+            "Jul": 0,
+            "Jun": 0,
+            "Mar": 0,
+            "May": 0,
+            "Nov": 0,
+            "Oct": 6600,
+            "Sep": 3825
+          }
+        },
+        "weighted_this_week": {
+          "Assess": {
+            "Apr": 0,
+            "Aug": 45000,
+            "Dec": 84360,
+            "Feb": 3000,
+            "Jan": 700,
+            "Jul": 0,
+            "Jun": 0,
+            "Mar": 0,
+            "May": 0,
+            "Nov": 30000,
+            "Oct": 3800,
+            "Sep": 15750
+          },
+          "Close": {
+            "Apr": 0,
+            "Aug": 0,
+            "Dec": 0,
+            "Feb": 0,
+            "Jan": 0,
+            "Jul": 0,
+            "Jun": 0,
+            "Mar": 0,
+            "May": 0,
+            "Nov": 0,
+            "Oct": 0,
+            "Sep": 0
+          },
+          "Develop": {
+            "Apr": 0,
+            "Aug": 0,
+            "Dec": 11125,
+            "Feb": 0,
+            "Jan": 7500,
+            "Jul": 0,
+            "Jun": 0,
+            "Mar": 0,
+            "May": 0,
+            "Nov": 41375,
+            "Oct": 30050,
+            "Sep": 0
+          },
+          "Discover": {
+            "Apr": 0,
+            "Aug": 0,
+            "Dec": 164275,
+            "Feb": 0,
+            "Jan": 0,
+            "Jul": 0,
+            "Jun": 0,
+            "Mar": 3300,
+            "May": 0,
+            "Nov": 170250,
+            "Oct": 18025,
+            "Sep": 0
+          },
+          "Negotiate": {
+            "Apr": 0,
+            "Aug": 0,
+            "Dec": 0,
+            "Feb": 0,
+            "Jan": 0,
+            "Jul": 0,
+            "Jun": 0,
+            "Mar": 0,
+            "May": 0,
+            "Nov": 0,
+            "Oct": 148800,
+            "Sep": 48000
+          },
+          "Propose": {
+            "Apr": 0,
+            "Aug": 0,
+            "Dec": 0,
+            "Feb": 0,
+            "Jan": 0,
+            "Jul": 0,
+            "Jun": 0,
+            "Mar": 0,
+            "May": 0,
+            "Nov": 0,
+            "Oct": 6600,
+            "Sep": 3825
+          }
+        }
+      },
+      "rep_analyses": {
+        "rep_analyses": [
+          {
+            "bullet_points": [
+              "2 risky open deals; schedule touchpoints / update ECD."
+            ],
+            "metrics": {
+              "advanced_deals_count": 0,
+              "advanced_deals_weighted_value": 0,
+              "lost_deals_count": 0,
+              "new_deals_created_count": 0,
+              "new_deals_weighted_value": 0,
+              "open_deals_count": 3,
+              "weighted_pipeline_value": 28975,
+              "won_deals_count": 0
+            },
+            "rep_name": "Menno Hoek",
+            "summary_paragraph": "Menno Hoek has 3 open deals (weighted €28.975). 2 open deals show risks (no recent activity / overdue / past ECD)."
+          },
+          {
+            "bullet_points": [
+              "1 deal advanced; consolidate momentum into later stages."
+            ],
+            "metrics": {
+              "advanced_deals_count": 1,
+              "advanced_deals_weighted_value": 3300,
+              "lost_deals_count": 0,
+              "new_deals_created_count": 0,
+              "new_deals_weighted_value": 0,
+              "open_deals_count": 6,
+              "weighted_pipeline_value": 11150,
+              "won_deals_count": 0
+            },
+            "rep_name": "Lore H.",
+            "summary_paragraph": "Lore H. has 6 open deals (weighted €11.150). 1 stage advance."
+          },
+          {
+            "bullet_points": [
+              "2 losses; review causes and recovery options.",
+              "3 risky open deals; schedule touchpoints / update ECD."
+            ],
+            "metrics": {
+              "advanced_deals_count": 0,
+              "advanced_deals_weighted_value": 0,
+              "lost_deals_count": 2,
+              "new_deals_created_count": 0,
+              "new_deals_weighted_value": 0,
+              "open_deals_count": 5,
+              "weighted_pipeline_value": 6000,
+              "won_deals_count": 0
+            },
+            "rep_name": "Merel Schouten",
+            "summary_paragraph": "Merel Schouten has 5 open deals (weighted €6.000). 2 lost (weighted €6.000). 3 open deals show risks (no recent activity / overdue / past ECD)."
+          },
+          {
+            "bullet_points": [
+              "1 risky open deal; schedule touchpoints / update ECD."
+            ],
+            "metrics": {
+              "advanced_deals_count": 0,
+              "advanced_deals_weighted_value": 0,
+              "lost_deals_count": 0,
+              "new_deals_created_count": 0,
+              "new_deals_weighted_value": 0,
+              "open_deals_count": 1,
+              "weighted_pipeline_value": 0,
+              "won_deals_count": 0
+            },
+            "rep_name": "Christian Schneemann",
+            "summary_paragraph": "Christian Schneemann has 1 open deal (weighted €0). 1 open deal shows risks (no recent activity / overdue / past ECD)."
+          },
+          {
+            "bullet_points": [
+              "4 risky open deals; schedule touchpoints / update ECD."
+            ],
+            "metrics": {
+              "advanced_deals_count": 0,
+              "advanced_deals_weighted_value": 0,
+              "lost_deals_count": 0,
+              "new_deals_created_count": 0,
+              "new_deals_weighted_value": 0,
+              "open_deals_count": 8,
+              "weighted_pipeline_value": 0,
+              "won_deals_count": 0
+            },
+            "rep_name": "Unassigned",
+            "summary_paragraph": "Unassigned has 8 open deals (weighted €0). 4 open deals show risks (no recent activity / overdue / past ECD)."
+          },
+          {
+            "bullet_points": [
+              "Maintain momentum on 1 open deal (weighted €0)."
+            ],
+            "metrics": {
+              "advanced_deals_count": 0,
+              "advanced_deals_weighted_value": 0,
+              "lost_deals_count": 0,
+              "new_deals_created_count": 0,
+              "new_deals_weighted_value": 0,
+              "open_deals_count": 1,
+              "weighted_pipeline_value": 0,
+              "won_deals_count": 0
+            },
+            "rep_name": "WUA ADMIN",
+            "summary_paragraph": "WUA ADMIN has 1 open deal (weighted €0)."
+          }
+        ]
+      },
+      "rep_analysis_focus": {
+        "representatives": "[{\"rep_name\": \"Merel Schouten\", \"overview\": \"Merel Schouten should focus on 4 with near-term or overdue activities, 21 need re-engagement (stagnating / no next activity). Prioritise high-weighted opportunities and ensure next steps are booked.\", \"priority_deals\": [{\"deal_title\": \"Sunny Cars Usability (rapporten upselling) deal\", \"reason\": \"no next activity; stagnating; missing qual fields; missing deal-dev fields\"}, {\"deal_title\": \"International Car Lease Holding deal 2025/2026\", \"reason\": \"activity within 7 days; stagnating; missing qual fields; missing deal-dev fields\"}, {\"deal_title\": \"Van Mossel Service - International Car Lease Holding\", \"reason\": \"activity within 7 days; stagnating; missing qual fields; missing deal-dev fields\"}, {\"deal_title\": \"Nick Oosterwijk | Corendon - MC Mobile CX - jun23\", \"reason\": \"no next activity; stagnating; missing qual fields; missing deal-dev fields\"}, {\"deal_title\": \"Koninklijke Gazelle Rijwielfabriek 2025 BV deal\", \"reason\": \"no next activity; missing qual fields; missing deal-dev fields\"}]}, {\"rep_name\": \"Christian Schneemann\", \"overview\": \"Christian Schneemann should focus on 2 need re-engagement (stagnating / no next activity). Prioritise high-weighted opportunities and ensure next steps are booked.\", \"priority_deals\": [{\"deal_title\": \"Felicia Beekhuizen van Coolblue Deal - Download Top 50 2023 - 2024\", \"reason\": \"no next activity; stagnating; missing qual fields; missing deal-dev fields\"}, {\"deal_title\": \"Bobby Schendstok van Heineken - Top 50 2023\", \"reason\": \"no next activity; stagnating; missing qual fields; missing deal-dev fields\"}]}, {\"rep_name\": \"Lore H.\", \"overview\": \"Lore H. should focus on 2 late-stage deals, 6 with near-term or overdue activities, 8 need re-engagement (stagnating / no next activity). Prioritise high-weighted opportunities and ensure next steps are booked.\", \"priority_deals\": [{\"deal_title\": \"Saskia  Kempers from  | Inbound | Lab45 Kennismaking of Contact\", \"reason\": \"late stage (Propose); no next activity; stagnating; missing qual fields; missing deal-dev fields\"}, {\"deal_title\": \"Maurice Pordon - Evi van Lanschot\", \"reason\": \"activity within 7 days; stagnating; missing qual fields; missing deal-dev fields\"}, {\"deal_title\": \"Leslie Groen - Yezzer\", \"reason\": \"activity within 7 days; stagnating; missing qual fields; missing deal-dev fields\"}, {\"deal_title\": \"DTC Dealer Totaal Concept deal - Financiering Auto - 2025\", \"reason\": \"late stage (Propose); stagnating; missing qual fields; missing deal-dev fields\"}, {\"deal_title\": \"Begra Group BV deal - Gürtan - Magazijninrichting - 2025\", \"reason\": \"activity within 7 days; stagnating; missing qual fields; missing deal-dev fields\"}]}, {\"rep_name\": \"Menno Hoek\", \"overview\": \"Menno Hoek should focus on 3 late-stage deals, 12 need re-engagement (stagnating / no next activity). Prioritise high-weighted opportunities and ensure next steps are booked.\", \"priority_deals\": [{\"deal_title\": \"DKG Groep verlenging\", \"reason\": \"late stage (Negotiate); no next activity; stagnating; missing qual fields; missing deal-dev fields\"}, {\"deal_title\": \"Nationale Nederlanden deal\", \"reason\": \"late stage (Negotiate); no next activity; missing qual fields; missing deal-dev fields\"}, {\"deal_title\": \"Rabobank deal\", \"reason\": \"late stage (Negotiate); no next activity; missing qual fields; missing deal-dev fields\"}, {\"deal_title\": \"Verivox GmbH deal\", \"reason\": \"no next activity; stagnating; missing qual fields; missing deal-dev fields\"}, {\"deal_title\": \"Vattenfall deal - DDMA Experimentation Heroes - Nominee: Experimentation Culture 7-11-2024\", \"reason\": \"no next activity; stagnating; missing qual fields; missing deal-dev fields\"}]}, {\"rep_name\": \"WUA ADMIN\", \"overview\": \"WUA ADMIN should focus on 1 need re-engagement (stagnating / no next activity). Prioritise high-weighted opportunities and ensure next steps are booked.\", \"priority_deals\": [{\"deal_title\": \"Eneco Zakelijk - 1meting Deep Dive + Tracker verlenging 2026 deal\", \"reason\": \"no next activity; stagnating; missing qual fields; missing deal-dev fields\"}]}, {\"rep_name\": \"Unassigned\", \"overview\": \"Unassigned should focus on 2 need re-engagement (stagnating / no next activity). Prioritise high-weighted opportunities and ensure next steps are booked.\", \"priority_deals\": [{\"deal_title\": \"Deal\", \"reason\": \"no next activity; missing qual fields; missing deal-dev fields\"}, {\"deal_title\": \"Deal\", \"reason\": \"no next activity; missing qual fields; missing deal-dev fields\"}]}, {\"rep_name\": \"Sem Kleton\", \"overview\": \"Sem Kleton should focus on 1 need re-engagement (stagnating / no next activity). Prioritise high-weighted opportunities and ensure next steps are booked.\", \"priority_deals\": [{\"deal_title\": \"New Elephant deal\", \"reason\": \"no next activity; missing qual fields; missing deal-dev fields\"}]}]"
+      },
+      "rep_insights": {
+        "rep_insights": [
+          {
+            "analysis_paragraph": "Merel Schouten has shown considerable activity this week with eight meetings and several tasks but has faced stagnation in multiple deals. Some deals have experienced movements, including an advancement of a deal to 'Close'. However, there were also losses and stagnations without next activities scheduled.",
+            "bullet_points": [
+              "Advancement: ABN AMRO Bank N.V. deal moved from Propose to Close.",
+              "Loss: Sunny Cars Usability deal was lost while in Develop stage.",
+              "Stagnation: Multiple deals have not changed stages in over 14 days.",
+              "No next activity scheduled for several key deals."
+            ],
+            "deal_flags": [
+              {
+                "deal_title": "Nick Oosterwijk | Corendon - MC Mobile CX - jun23",
+                "flag_type": "stagnating",
+                "note": "No stage change or next activity for over 14 days."
+              },
+              {
+                "deal_title": "Sunny Cars Usability (rapporten upselling) deal",
+                "flag_type": "lost",
+                "note": "This deal was lost on 2025-09-25."
+              },
+              {
+                "deal_title": "Koninklijke Gazelle Rijwielfabriek 2025 BV deal",
+                "flag_type": "no_next_activity",
+                "note": "No scheduled next activity."
+              }
+            ],
+            "rep_name": "Merel Schouten"
+          },
+          {
+            "analysis_paragraph": "Christian Schneemann has not engaged in any activities this week and is facing stagnation across all deals on his pipeline with no changes in stage or activity. He must take action to resume progress on these opportunities.",
+            "bullet_points": [
+              "All deals are stagnating with no next activity scheduled.",
+              "No movement recorded in the pipeline, indicating no engagement."
+            ],
+            "deal_flags": [
+              {
+                "deal_title": "Felicia Beekhuizen van Coolblue Deal - Download Top 50 2023 - 2024",
+                "flag_type": "stagnating",
+                "note": "No stage change or next activity for over 14 days."
+              },
+              {
+                "deal_title": "Bobby Schendstok van Heineken - Top 50 2023",
+                "flag_type": "stagnating",
+                "note": "No stage change or next activity for over 14 days."
+              }
+            ],
+            "rep_name": "Christian Schneemann"
+          },
+          {
+            "analysis_paragraph": "Lore H. has actively participated with significant engagement this week, resulting in critical advancements in the pipeline. However, stagnation remains a concern for certain deals which have not moved or have no upcoming activity.",
+            "bullet_points": [
+              "Advancement: Jeroen Voskuil deal moved from Discover to Develop stage.",
+              "Several deals are stagnating with no next activity scheduled.",
+              "Continued high activity levels with 8 meetings and several tasks completed."
+            ],
+            "deal_flags": [
+              {
+                "deal_title": "Rogier Lanting van Douglas-hout.nl  WP Winnen in de markt 2024",
+                "flag_type": "no_next_activity",
+                "note": "No upcoming activity scheduled."
+              },
+              {
+                "deal_title": "Buckaroo deal - Bart van Wijk & Kevin Wetzel  - 2025",
+                "flag_type": "stagnating",
+                "note": "Stagnating with no changes in stage."
+              }
+            ],
+            "rep_name": "Lore H."
+          },
+          {
+            "analysis_paragraph": "Menno Hoek has not progressed in any deals this week, with all deals remaining stagnant and without next scheduled activities. It's pivotal for him to escalate efforts to revive these stalled opportunities.",
+            "bullet_points": [
+              "All deals in the pipeline are stagnating.",
+              "No next activity scheduled for any deal, indicating a need for action."
+            ],
+            "deal_flags": [
+              {
+                "deal_title": "Verivox GmbH deal",
+                "flag_type": "stagnating",
+                "note": "No stage change or next activity for over 14 days."
+              },
+              {
+                "deal_title": "Vattenfall deal - DDMA Experimentation Heroes",
+                "flag_type": "stagnating",
+                "note": "No stage change or next activity for over 14 days."
+              }
+            ],
+            "rep_name": "Menno Hoek"
+          },
+          {
+            "analysis_paragraph": "The WUA ADMIN rep has achieved an advancement this week but has only one deal to track, resulting in limited insight. The engagement level needs to be enhanced to ensure more opportunities are being explored.",
+            "bullet_points": [
+              "Advancement: Eneco Zakelijk deal moved from Assess to Develop.",
+              "Limited deals tracked, indicating potential areas for improvement in engagement."
+            ],
+            "rep_name": "WUA ADMIN"
+          },
+          {
+            "analysis_paragraph": "The Unassigned representative has two deals but lacks any movement in either case. Both deals are stagnant, suggesting a need for assignment to a responsible rep to drive them forward.",
+            "bullet_points": [
+              "Both deals are stagnating with no next activities scheduled.",
+              "Immediate action required to prevent further stagnation."
+            ],
+            "deal_flags": [
+              {
+                "deal_title": "Deal",
+                "flag_type": "stagnating",
+                "note": "No stage change or next activity for over 14 days."
+              },
+              {
+                "deal_title": "Deal",
+                "flag_type": "stagnating",
+                "note": "No stage change or next activity for over 14 days."
+              }
+            ],
+            "rep_name": "Unassigned"
+          },
+          {
+            "analysis_paragraph": "Sem Kleton has a single deal and is facing stagnation without any activity recorded. This deal requires attention to either advance or assign it appropriately.",
+            "bullet_points": [
+              "Deal is stagnant with no activity recorded.",
+              "Needs immediate attention to progress."
+            ],
+            "deal_flags": [
+              {
+                "deal_title": "New Elephant deal",
+                "flag_type": "stagnating",
+                "note": "No stage change or next activity for over 14 days."
+              }
+            ],
+            "rep_name": "Sem Kleton"
+          }
+        ]
+      },
+      "rep_overviews": {
+        "rep_tables": [
+          {
+            "chart_meta": {
+              "months": [
+                "Jan",
+                "Feb",
+                "Mar",
+                "Apr",
+                "May",
+                "Jun",
+                "Jul",
+                "Aug",
+                "Sep",
+                "Oct",
+                "Nov",
+                "Dec"
+              ],
+              "stages": [
+                "Discover",
+                "Assess",
+                "Develop",
+                "Propose",
+                "Negotiate",
+                "Close"
+              ],
+              "units": "€ weighted"
+            },
+            "last_week_moves": [
+              {
+                "deal_title": "ABN AMRO Bank N.V. deal - extra Deep Dive BUUT",
+                "direction": "advance",
+                "from_stage": "Propose",
+                "to_stage": "Close",
+                "weighted_delta": 4500,
+                "when": "2025-09-25 07:40:57"
+              }
+            ],
+            "rep_name": "Merel Schouten",
+            "tables": {
+              "last_week": {
+                "Assess": {
+                  "Apr": 0,
+                  "Aug": 0,
+                  "Dec": 4950,
+                  "Feb": 0,
+                  "Jan": 0,
+                  "Jul": 0,
+                  "Jun": 0,
+                  "Mar": 0,
+                  "May": 0,
+                  "Nov": 6000,
+                  "Oct": 0,
+                  "Sep": 0
+                },
+                "Close": {
+                  "Apr": 0,
+                  "Aug": 0,
+                  "Dec": 0,
+                  "Feb": 0,
+                  "Jan": 0,
+                  "Jul": 0,
+                  "Jun": 0,
+                  "Mar": 0,
+                  "May": 0,
+                  "Nov": 0,
+                  "Oct": 0,
+                  "Sep": 0
+                },
+                "Develop": {
+                  "Apr": 0,
+                  "Aug": 0,
+                  "Dec": 0,
+                  "Feb": 0,
+                  "Jan": 0,
+                  "Jul": 0,
+                  "Jun": 0,
+                  "Mar": 0,
+                  "May": 0,
+                  "Nov": 0,
+                  "Oct": 5500,
+                  "Sep": 0
+                },
+                "Discover": {
+                  "Apr": 0,
+                  "Aug": 0,
+                  "Dec": 0,
+                  "Feb": 0,
+                  "Jan": 0,
+                  "Jul": 0,
+                  "Jun": 0,
+                  "Mar": 0,
+                  "May": 0,
+                  "Nov": 0,
+                  "Oct": 0,
+                  "Sep": 0
+                },
+                "Negotiate": {
+                  "Apr": 0,
+                  "Aug": 0,
+                  "Dec": 0,
+                  "Feb": 0,
+                  "Jan": 0,
+                  "Jul": 0,
+                  "Jun": 0,
+                  "Mar": 0,
+                  "May": 0,
+                  "Nov": 0,
+                  "Oct": 0,
+                  "Sep": 0
+                },
+                "Propose": {
+                  "Apr": 0,
+                  "Aug": 0,
+                  "Dec": 0,
+                  "Feb": 0,
+                  "Jan": 0,
+                  "Jul": 0,
+                  "Jun": 0,
+                  "Mar": 0,
+                  "May": 0,
+                  "Nov": 0,
+                  "Oct": 0,
+                  "Sep": 10500
+                }
+              },
+              "this_week": {
+                "Assess": {
+                  "Apr": 0,
+                  "Aug": 0,
+                  "Dec": 4950,
+                  "Feb": 0,
+                  "Jan": 0,
+                  "Jul": 0,
+                  "Jun": 0,
+                  "Mar": 0,
+                  "May": 0,
+                  "Nov": 6000,
+                  "Oct": 0,
+                  "Sep": 0
+                },
+                "Close": {
+                  "Apr": 0,
+                  "Aug": 0,
+                  "Dec": 0,
+                  "Feb": 0,
+                  "Jan": 0,
+                  "Jul": 0,
+                  "Jun": 0,
+                  "Mar": 0,
+                  "May": 0,
+                  "Nov": 0,
+                  "Oct": 0,
+                  "Sep": 15000
+                },
+                "Develop": {
+                  "Apr": 0,
+                  "Aug": 0,
+                  "Dec": 0,
+                  "Feb": 0,
+                  "Jan": 0,
+                  "Jul": 0,
+                  "Jun": 0,
+                  "Mar": 0,
+                  "May": 0,
+                  "Nov": 0,
+                  "Oct": 5500,
+                  "Sep": 0
+                },
+                "Discover": {
+                  "Apr": 0,
+                  "Aug": 0,
+                  "Dec": 0,
+                  "Feb": 0,
+                  "Jan": 0,
+                  "Jul": 0,
+                  "Jun": 0,
+                  "Mar": 0,
+                  "May": 0,
+                  "Nov": 0,
+                  "Oct": 0,
+                  "Sep": 0
+                },
+                "Negotiate": {
+                  "Apr": 0,
+                  "Aug": 0,
+                  "Dec": 0,
+                  "Feb": 0,
+                  "Jan": 0,
+                  "Jul": 0,
+                  "Jun": 0,
+                  "Mar": 0,
+                  "May": 0,
+                  "Nov": 0,
+                  "Oct": 0,
+                  "Sep": 0
+                },
+                "Propose": {
+                  "Apr": 0,
+                  "Aug": 0,
+                  "Dec": 0,
+                  "Feb": 0,
+                  "Jan": 0,
+                  "Jul": 0,
+                  "Jun": 0,
+                  "Mar": 0,
+                  "May": 0,
+                  "Nov": 0,
+                  "Oct": 0,
+                  "Sep": 0
+                }
+              }
+            },
+            "totals": {
+              "last_week": 26950,
+              "this_week": 31450
+            }
+          },
+          {
+            "chart_meta": {
+              "months": [
+                "Jan",
+                "Feb",
+                "Mar",
+                "Apr",
+                "May",
+                "Jun",
+                "Jul",
+                "Aug",
+                "Sep",
+                "Oct",
+                "Nov",
+                "Dec"
+              ],
+              "stages": [
+                "Discover",
+                "Assess",
+                "Develop",
+                "Propose",
+                "Negotiate",
+                "Close"
+              ],
+              "units": "€ weighted"
+            },
+            "last_week_moves": [
+              {
+                "deal_title": "DKG Groep verlenging",
+                "direction": "advance",
+                "from_stage": "Propose",
+                "to_stage": "Negotiate",
+                "weighted_delta": 0,
+                "when": "2025-09-29 08:01:12"
+              },
+              {
+                "deal_title": "Rabobank deal",
+                "direction": "advance",
+                "from_stage": "Propose",
+                "to_stage": "Negotiate",
+                "weighted_delta": 27900,
+                "when": "2025-09-29 07:59:36"
+              },
+              {
+                "deal_title": "Nationale Nederlanden deal",
+                "direction": "advance",
+                "from_stage": "Propose",
+                "to_stage": "Negotiate",
+                "weighted_delta": 0,
+                "when": "2025-09-29 07:59:08"
+              },
+              {
+                "deal_title": "Eneco Zakelijk - 1meting Deep Dive + Tracker verlenging 2026 deal",
+                "direction": "advance",
+                "from_stage": "Assess",
+                "to_stage": "Develop",
+                "weighted_delta": 0,
+                "when": "2025-09-29 07:53:32"
+              }
+            ],
+            "rep_name": "Menno Hoek",
+            "tables": {
+              "last_week": {
+                "Assess": {
+                  "Apr": 0,
+                  "Aug": 0,
+                  "Dec": 0,
+                  "Feb": 0,
+                  "Jan": 0,
+                  "Jul": 0,
+                  "Jun": 0,
+                  "Mar": 0,
+                  "May": 0,
+                  "Nov": 0,
+                  "Oct": 0,
+                  "Sep": 0
+                },
+                "Close": {
+                  "Apr": 0,
+                  "Aug": 0,
+                  "Dec": 0,
+                  "Feb": 0,
+                  "Jan": 0,
+                  "Jul": 0,
+                  "Jun": 0,
+                  "Mar": 0,
+                  "May": 0,
+                  "Nov": 0,
+                  "Oct": 0,
+                  "Sep": 0
+                },
+                "Develop": {
+                  "Apr": 0,
+                  "Aug": 0,
+                  "Dec": 0,
+                  "Feb": 0,
+                  "Jan": 0,
+                  "Jul": 0,
+                  "Jun": 0,
+                  "Mar": 0,
+                  "May": 0,
+                  "Nov": 22500,
+                  "Oct": 33250,
+                  "Sep": 0
+                },
+                "Discover": {
+                  "Apr": 0,
+                  "Aug": 0,
+                  "Dec": 15675,
+                  "Feb": 0,
+                  "Jan": 0,
+                  "Jul": 0,
+                  "Jun": 0,
+                  "Mar": 0,
+                  "May": 0,
+                  "Nov": 0,
+                  "Oct": 0,
+                  "Sep": 0
+                },
+                "Negotiate": {
+                  "Apr": 0,
+                  "Aug": 0,
+                  "Dec": 0,
+                  "Feb": 0,
+                  "Jan": 0,
+                  "Jul": 0,
+                  "Jun": 0,
+                  "Mar": 0,
+                  "May": 0,
+                  "Nov": 0,
+                  "Oct": 0,
+                  "Sep": 0
+                },
+                "Propose": {
+                  "Apr": 0,
+                  "Aug": 0,
+                  "Dec": 0,
+                  "Feb": 0,
+                  "Jan": 0,
+                  "Jul": 0,
+                  "Jun": 0,
+                  "Mar": 0,
+                  "May": 0,
+                  "Nov": 0,
+                  "Oct": 0,
+                  "Sep": 0
+                }
+              },
+              "this_week": {
+                "Assess": {
+                  "Apr": 0,
+                  "Aug": 0,
+                  "Dec": 0,
+                  "Feb": 0,
+                  "Jan": 0,
+                  "Jul": 0,
+                  "Jun": 0,
+                  "Mar": 0,
+                  "May": 0,
+                  "Nov": 0,
+                  "Oct": 0,
+                  "Sep": 0
+                },
+                "Close": {
+                  "Apr": 0,
+                  "Aug": 0,
+                  "Dec": 0,
+                  "Feb": 0,
+                  "Jan": 0,
+                  "Jul": 0,
+                  "Jun": 0,
+                  "Mar": 0,
+                  "May": 0,
+                  "Nov": 0,
+                  "Oct": 0,
+                  "Sep": 0
+                },
+                "Develop": {
+                  "Apr": 0,
+                  "Aug": 0,
+                  "Dec": 0,
+                  "Feb": 0,
+                  "Jan": 0,
+                  "Jul": 0,
+                  "Jun": 0,
+                  "Mar": 0,
+                  "May": 0,
+                  "Nov": 22500,
+                  "Oct": 33250,
+                  "Sep": 0
+                },
+                "Discover": {
+                  "Apr": 0,
+                  "Aug": 0,
+                  "Dec": 15675,
+                  "Feb": 0,
+                  "Jan": 0,
+                  "Jul": 0,
+                  "Jun": 0,
+                  "Mar": 0,
+                  "May": 0,
+                  "Nov": 0,
+                  "Oct": 0,
+                  "Sep": 0
+                },
+                "Negotiate": {
+                  "Apr": 0,
+                  "Aug": 0,
+                  "Dec": 0,
+                  "Feb": 0,
+                  "Jan": 0,
+                  "Jul": 0,
+                  "Jun": 0,
+                  "Mar": 0,
+                  "May": 0,
+                  "Nov": 0,
+                  "Oct": 0,
+                  "Sep": 0
+                },
+                "Propose": {
+                  "Apr": 0,
+                  "Aug": 0,
+                  "Dec": 0,
+                  "Feb": 0,
+                  "Jan": 0,
+                  "Jul": 0,
+                  "Jun": 0,
+                  "Mar": 0,
+                  "May": 0,
+                  "Nov": 0,
+                  "Oct": 0,
+                  "Sep": 0
+                }
+              }
+            },
+            "totals": {
+              "last_week": 71425,
+              "this_week": 71425
+            }
+          },
+          {
+            "chart_meta": {
+              "months": [
+                "Jan",
+                "Feb",
+                "Mar",
+                "Apr",
+                "May",
+                "Jun",
+                "Jul",
+                "Aug",
+                "Sep",
+                "Oct",
+                "Nov",
+                "Dec"
+              ],
+              "stages": [
+                "Discover",
+                "Assess",
+                "Develop",
+                "Propose",
+                "Negotiate",
+                "Close"
+              ],
+              "units": "€ weighted"
+            },
+            "rep_name": "Lore H.",
+            "tables": {
+              "last_week": {
+                "Assess": {
+                  "Apr": 0,
+                  "Aug": 0,
+                  "Dec": 0,
+                  "Feb": 0,
+                  "Jan": 0,
+                  "Jul": 0,
+                  "Jun": 0,
+                  "Mar": 0,
+                  "May": 0,
+                  "Nov": 0,
+                  "Oct": 0,
+                  "Sep": 0
+                },
+                "Close": {
+                  "Apr": 0,
+                  "Aug": 0,
+                  "Dec": 0,
+                  "Feb": 0,
+                  "Jan": 0,
+                  "Jul": 0,
+                  "Jun": 0,
+                  "Mar": 0,
+                  "May": 0,
+                  "Nov": 0,
+                  "Oct": 0,
+                  "Sep": 0
+                },
+                "Develop": {
+                  "Apr": 0,
+                  "Aug": 0,
+                  "Dec": 8750,
+                  "Feb": 0,
+                  "Jan": 0,
+                  "Jul": 0,
+                  "Jun": 0,
+                  "Mar": 0,
+                  "May": 0,
+                  "Nov": 8750,
+                  "Oct": 0,
+                  "Sep": 0
+                },
+                "Discover": {
+                  "Apr": 0,
+                  "Aug": 0,
+                  "Dec": 0,
+                  "Feb": 0,
+                  "Jan": 0,
+                  "Jul": 0,
+                  "Jun": 0,
+                  "Mar": 1650,
+                  "May": 0,
+                  "Nov": 0,
+                  "Oct": 850,
+                  "Sep": 0
+                },
+                "Negotiate": {
+                  "Apr": 0,
+                  "Aug": 0,
+                  "Dec": 0,
+                  "Feb": 0,
+                  "Jan": 0,
+                  "Jul": 0,
+                  "Jun": 0,
+                  "Mar": 0,
+                  "May": 0,
+                  "Nov": 0,
+                  "Oct": 0,
+                  "Sep": 0
+                },
+                "Propose": {
+                  "Apr": 0,
+                  "Aug": 0,
+                  "Dec": 0,
+                  "Feb": 0,
+                  "Jan": 0,
+                  "Jul": 0,
+                  "Jun": 0,
+                  "Mar": 0,
+                  "May": 0,
+                  "Nov": 0,
+                  "Oct": 11550,
+                  "Sep": 0
+                }
+              },
+              "this_week": {
+                "Assess": {
+                  "Apr": 0,
+                  "Aug": 0,
+                  "Dec": 0,
+                  "Feb": 0,
+                  "Jan": 0,
+                  "Jul": 0,
+                  "Jun": 0,
+                  "Mar": 0,
+                  "May": 0,
+                  "Nov": 0,
+                  "Oct": 0,
+                  "Sep": 0
+                },
+                "Close": {
+                  "Apr": 0,
+                  "Aug": 0,
+                  "Dec": 0,
+                  "Feb": 0,
+                  "Jan": 0,
+                  "Jul": 0,
+                  "Jun": 0,
+                  "Mar": 0,
+                  "May": 0,
+                  "Nov": 0,
+                  "Oct": 0,
+                  "Sep": 0
+                },
+                "Develop": {
+                  "Apr": 0,
+                  "Aug": 0,
+                  "Dec": 8750,
+                  "Feb": 0,
+                  "Jan": 0,
+                  "Jul": 0,
+                  "Jun": 0,
+                  "Mar": 0,
+                  "May": 0,
+                  "Nov": 8750,
+                  "Oct": 0,
+                  "Sep": 0
+                },
+                "Discover": {
+                  "Apr": 0,
+                  "Aug": 0,
+                  "Dec": 0,
+                  "Feb": 0,
+                  "Jan": 0,
+                  "Jul": 0,
+                  "Jun": 0,
+                  "Mar": 1650,
+                  "May": 0,
+                  "Nov": 0,
+                  "Oct": 850,
+                  "Sep": 0
+                },
+                "Negotiate": {
+                  "Apr": 0,
+                  "Aug": 0,
+                  "Dec": 0,
+                  "Feb": 0,
+                  "Jan": 0,
+                  "Jul": 0,
+                  "Jun": 0,
+                  "Mar": 0,
+                  "May": 0,
+                  "Nov": 0,
+                  "Oct": 0,
+                  "Sep": 0
+                },
+                "Propose": {
+                  "Apr": 0,
+                  "Aug": 0,
+                  "Dec": 0,
+                  "Feb": 0,
+                  "Jan": 0,
+                  "Jul": 0,
+                  "Jun": 0,
+                  "Mar": 0,
+                  "May": 0,
+                  "Nov": 0,
+                  "Oct": 11550,
+                  "Sep": 0
+                }
+              }
+            },
+            "totals": {
+              "last_week": 31550,
+              "this_week": 31550
+            }
+          },
+          {
+            "chart_meta": {
+              "months": [
+                "Jan",
+                "Feb",
+                "Mar",
+                "Apr",
+                "May",
+                "Jun",
+                "Jul",
+                "Aug",
+                "Sep",
+                "Oct",
+                "Nov",
+                "Dec"
+              ],
+              "stages": [
+                "Discover",
+                "Assess",
+                "Develop",
+                "Propose",
+                "Negotiate",
+                "Close"
+              ],
+              "units": "€ weighted"
+            },
+            "rep_name": "Unassigned",
+            "tables": {
+              "last_week": {
+                "Assess": {
+                  "Apr": 0,
+                  "Aug": 0,
+                  "Dec": 0,
+                  "Feb": 0,
+                  "Jan": 0,
+                  "Jul": 0,
+                  "Jun": 0,
+                  "Mar": 0,
+                  "May": 0,
+                  "Nov": 0,
+                  "Oct": 0,
+                  "Sep": 0
+                },
+                "Close": {
+                  "Apr": 0,
+                  "Aug": 0,
+                  "Dec": 0,
+                  "Feb": 0,
+                  "Jan": 0,
+                  "Jul": 0,
+                  "Jun": 0,
+                  "Mar": 0,
+                  "May": 0,
+                  "Nov": 0,
+                  "Oct": 0,
+                  "Sep": 0
+                },
+                "Develop": {
+                  "Apr": 0,
+                  "Aug": 0,
+                  "Dec": 0,
+                  "Feb": 0,
+                  "Jan": 0,
+                  "Jul": 0,
+                  "Jun": 0,
+                  "Mar": 0,
+                  "May": 0,
+                  "Nov": 0,
+                  "Oct": 0,
+                  "Sep": 0
+                },
+                "Discover": {
+                  "Apr": 0,
+                  "Aug": 0,
+                  "Dec": 0,
+                  "Feb": 0,
+                  "Jan": 0,
+                  "Jul": 0,
+                  "Jun": 0,
+                  "Mar": 0,
+                  "May": 0,
+                  "Nov": 0,
+                  "Oct": 0,
+                  "Sep": 0
+                },
+                "Negotiate": {
+                  "Apr": 0,
+                  "Aug": 0,
+                  "Dec": 0,
+                  "Feb": 0,
+                  "Jan": 0,
+                  "Jul": 0,
+                  "Jun": 0,
+                  "Mar": 0,
+                  "May": 0,
+                  "Nov": 0,
+                  "Oct": 0,
+                  "Sep": 0
+                },
+                "Propose": {
+                  "Apr": 0,
+                  "Aug": 0,
+                  "Dec": 0,
+                  "Feb": 0,
+                  "Jan": 0,
+                  "Jul": 0,
+                  "Jun": 0,
+                  "Mar": 0,
+                  "May": 0,
+                  "Nov": 0,
+                  "Oct": 0,
+                  "Sep": 0
+                }
+              },
+              "this_week": {
+                "Assess": {
+                  "Apr": 0,
+                  "Aug": 0,
+                  "Dec": 0,
+                  "Feb": 0,
+                  "Jan": 0,
+                  "Jul": 0,
+                  "Jun": 0,
+                  "Mar": 0,
+                  "May": 0,
+                  "Nov": 0,
+                  "Oct": 0,
+                  "Sep": 0
+                },
+                "Close": {
+                  "Apr": 0,
+                  "Aug": 0,
+                  "Dec": 0,
+                  "Feb": 0,
+                  "Jan": 0,
+                  "Jul": 0,
+                  "Jun": 0,
+                  "Mar": 0,
+                  "May": 0,
+                  "Nov": 0,
+                  "Oct": 0,
+                  "Sep": 0
+                },
+                "Develop": {
+                  "Apr": 0,
+                  "Aug": 0,
+                  "Dec": 0,
+                  "Feb": 0,
+                  "Jan": 0,
+                  "Jul": 0,
+                  "Jun": 0,
+                  "Mar": 0,
+                  "May": 0,
+                  "Nov": 0,
+                  "Oct": 0,
+                  "Sep": 0
+                },
+                "Discover": {
+                  "Apr": 0,
+                  "Aug": 0,
+                  "Dec": 0,
+                  "Feb": 0,
+                  "Jan": 0,
+                  "Jul": 0,
+                  "Jun": 0,
+                  "Mar": 0,
+                  "May": 0,
+                  "Nov": 0,
+                  "Oct": 0,
+                  "Sep": 0
+                },
+                "Negotiate": {
+                  "Apr": 0,
+                  "Aug": 0,
+                  "Dec": 0,
+                  "Feb": 0,
+                  "Jan": 0,
+                  "Jul": 0,
+                  "Jun": 0,
+                  "Mar": 0,
+                  "May": 0,
+                  "Nov": 0,
+                  "Oct": 0,
+                  "Sep": 0
+                },
+                "Propose": {
+                  "Apr": 0,
+                  "Aug": 0,
+                  "Dec": 0,
+                  "Feb": 0,
+                  "Jan": 0,
+                  "Jul": 0,
+                  "Jun": 0,
+                  "Mar": 0,
+                  "May": 0,
+                  "Nov": 0,
+                  "Oct": 0,
+                  "Sep": 0
+                }
+              }
+            },
+            "totals": {
+              "last_week": 0,
+              "this_week": 0
+            }
+          },
+          {
+            "chart_meta": {
+              "months": [
+                "Jan",
+                "Feb",
+                "Mar",
+                "Apr",
+                "May",
+                "Jun",
+                "Jul",
+                "Aug",
+                "Sep",
+                "Oct",
+                "Nov",
+                "Dec"
+              ],
+              "stages": [
+                "Discover",
+                "Assess",
+                "Develop",
+                "Propose",
+                "Negotiate",
+                "Close"
+              ],
+              "units": "€ weighted"
+            },
+            "rep_name": "Sem Kleton",
+            "tables": {
+              "last_week": {
+                "Assess": {
+                  "Apr": 0,
+                  "Aug": 0,
+                  "Dec": 0,
+                  "Feb": 0,
+                  "Jan": 0,
+                  "Jul": 0,
+                  "Jun": 0,
+                  "Mar": 0,
+                  "May": 0,
+                  "Nov": 0,
+                  "Oct": 0,
+                  "Sep": 0
+                },
+                "Close": {
+                  "Apr": 0,
+                  "Aug": 0,
+                  "Dec": 0,
+                  "Feb": 0,
+                  "Jan": 0,
+                  "Jul": 0,
+                  "Jun": 0,
+                  "Mar": 0,
+                  "May": 0,
+                  "Nov": 0,
+                  "Oct": 0,
+                  "Sep": 0
+                },
+                "Develop": {
+                  "Apr": 0,
+                  "Aug": 0,
+                  "Dec": 0,
+                  "Feb": 0,
+                  "Jan": 0,
+                  "Jul": 0,
+                  "Jun": 0,
+                  "Mar": 0,
+                  "May": 0,
+                  "Nov": 0,
+                  "Oct": 0,
+                  "Sep": 0
+                },
+                "Discover": {
+                  "Apr": 0,
+                  "Aug": 0,
+                  "Dec": 0,
+                  "Feb": 0,
+                  "Jan": 0,
+                  "Jul": 0,
+                  "Jun": 0,
+                  "Mar": 0,
+                  "May": 0,
+                  "Nov": 0,
+                  "Oct": 0,
+                  "Sep": 0
+                },
+                "Negotiate": {
+                  "Apr": 0,
+                  "Aug": 0,
+                  "Dec": 0,
+                  "Feb": 0,
+                  "Jan": 0,
+                  "Jul": 0,
+                  "Jun": 0,
+                  "Mar": 0,
+                  "May": 0,
+                  "Nov": 0,
+                  "Oct": 0,
+                  "Sep": 0
+                },
+                "Propose": {
+                  "Apr": 0,
+                  "Aug": 0,
+                  "Dec": 0,
+                  "Feb": 0,
+                  "Jan": 0,
+                  "Jul": 0,
+                  "Jun": 0,
+                  "Mar": 0,
+                  "May": 0,
+                  "Nov": 0,
+                  "Oct": 0,
+                  "Sep": 0
+                }
+              },
+              "this_week": {
+                "Assess": {
+                  "Apr": 0,
+                  "Aug": 0,
+                  "Dec": 0,
+                  "Feb": 0,
+                  "Jan": 0,
+                  "Jul": 0,
+                  "Jun": 0,
+                  "Mar": 0,
+                  "May": 0,
+                  "Nov": 0,
+                  "Oct": 0,
+                  "Sep": 0
+                },
+                "Close": {
+                  "Apr": 0,
+                  "Aug": 0,
+                  "Dec": 0,
+                  "Feb": 0,
+                  "Jan": 0,
+                  "Jul": 0,
+                  "Jun": 0,
+                  "Mar": 0,
+                  "May": 0,
+                  "Nov": 0,
+                  "Oct": 0,
+                  "Sep": 0
+                },
+                "Develop": {
+                  "Apr": 0,
+                  "Aug": 0,
+                  "Dec": 0,
+                  "Feb": 0,
+                  "Jan": 0,
+                  "Jul": 0,
+                  "Jun": 0,
+                  "Mar": 0,
+                  "May": 0,
+                  "Nov": 0,
+                  "Oct": 0,
+                  "Sep": 0
+                },
+                "Discover": {
+                  "Apr": 0,
+                  "Aug": 0,
+                  "Dec": 0,
+                  "Feb": 0,
+                  "Jan": 0,
+                  "Jul": 0,
+                  "Jun": 0,
+                  "Mar": 0,
+                  "May": 0,
+                  "Nov": 0,
+                  "Oct": 0,
+                  "Sep": 0
+                },
+                "Negotiate": {
+                  "Apr": 0,
+                  "Aug": 0,
+                  "Dec": 0,
+                  "Feb": 0,
+                  "Jan": 0,
+                  "Jul": 0,
+                  "Jun": 0,
+                  "Mar": 0,
+                  "May": 0,
+                  "Nov": 0,
+                  "Oct": 0,
+                  "Sep": 0
+                },
+                "Propose": {
+                  "Apr": 0,
+                  "Aug": 0,
+                  "Dec": 0,
+                  "Feb": 0,
+                  "Jan": 0,
+                  "Jul": 0,
+                  "Jun": 0,
+                  "Mar": 0,
+                  "May": 0,
+                  "Nov": 0,
+                  "Oct": 0,
+                  "Sep": 0
+                }
+              }
+            },
+            "totals": {
+              "last_week": 0,
+              "this_week": 0
+            }
+          }
+        ]
+      },
+      "rep_rga_data": {
+        "snapshotAt": "2025-09-14 23:59:59",
+        "tableByRep": "[{\"rep_name\": \"Menno Hoek [User ID: 14752272]\", \"user_id\": \"14752272\", \"total\": 1, \"Call\": 0, \"Email\": 0, \"Meeting\": 0, \"LinkedIn Task\": 0, \"Task\": 1, \"Whatsapp/ SMS\": 0, \"Phone call WITH voicemail\": 0, \"Phone call WITHOUT voicemail\": 0, \"Proposal\": 0}, {\"rep_name\": \"Merel Schouten [User ID: 24559575]\", \"user_id\": \"24559575\", \"total\": 2, \"Call\": 0, \"Email\": 1, \"Meeting\": 1, \"LinkedIn Task\": 0, \"Task\": 0, \"Whatsapp/ SMS\": 0, \"Phone call WITH voicemail\": 0, \"Phone call WITHOUT voicemail\": 0, \"Proposal\": 0}, {\"rep_name\": \"Menno Hoek [User ID: 14752272]\", \"user_id\": \"14752272\", \"total\": 1, \"Call\": 0, \"Email\": 0, \"Meeting\": 0, \"LinkedIn Task\": 0, \"Task\": 1, \"Whatsapp/ SMS\": 0, \"Phone call WITH voicemail\": 0, \"Phone call WITHOUT voicemail\": 0, \"Proposal\": 0}, {\"rep_name\": \"Merel Schouten [User ID: 24559575]\", \"user_id\": \"24559575\", \"total\": 2, \"Call\": 0, \"Email\": 1, \"Meeting\": 1, \"LinkedIn Task\": 0, \"Task\": 0, \"Whatsapp/ SMS\": 0, \"Phone call WITH voicemail\": 0, \"Phone call WITHOUT voicemail\": 0, \"Proposal\": 0}, {\"rep_name\": \"Menno Hoek [User ID: 14752272]\", \"user_id\": \"14752272\", \"total\": 1, \"Call\": 0, \"Email\": 0, \"Meeting\": 0, \"LinkedIn Task\": 0, \"Task\": 1, \"Whatsapp/ SMS\": 0, \"Phone call WITH voicemail\": 0, \"Phone call WITHOUT voicemail\": 0, \"Proposal\": 0}, {\"rep_name\": \"Merel Schouten [User ID: 24559575]\", \"user_id\": \"24559575\", \"total\": 2, \"Call\": 0, \"Email\": 1, \"Meeting\": 1, \"LinkedIn Task\": 0, \"Task\": 0, \"Whatsapp/ SMS\": 0, \"Phone call WITH voicemail\": 0, \"Phone call WITHOUT voicemail\": 0, \"Proposal\": 0}]"
+      },
+      "total_deal_value_pipeline": {
+        "ai_key_differences_analysis": {
+          "pipeline_report": {
+            "ai_key_differences_prompt": "You are provided weekly weighted pipeline snapshots (this week vs last week).\nTotals: last week €407,250, this week €407,250 (Δ +0).\nFor each stage you have current/previous values, absolute & % change, and top contributing deals.\nWrite: (1) a concise overview paragraph of the general trend, (2) 3–5 bullets with the biggest positive/negative stage changes and notable deals, and (3) a short conclusion on pipeline health and next focus.\nKeep it factual and succinct for a leadership slide.",
+            "bullet_points": [
+              "Total moved from €407,250 to €407,250 (+0).",
+              "No positive stage change.",
+              "No negative stage change.",
+              "Largest deal movers are included per stage; focus on progressing mid-to-late stages to sustain momentum."
+            ],
+            "overview_paragraph": "This week’s weighted pipeline increased by €0, with the largest positive movement in n/a."
+          }
+        },
+        "top_movers": [
+          {
+            "delta": 0,
+            "month": "Nov",
+            "stage_from": "Develop",
+            "stage_to": "Develop",
+            "title": "Jeroen Voskuil van Vereniging Eigen Huis",
+            "week_from": 17500,
+            "week_to": 17500
+          },
+          {
+            "delta": 0,
+            "month": "Mar",
+            "stage_from": "Discover",
+            "stage_to": "Discover",
+            "title": "Buckaroo deal - Bart van Wijk & Kevin Wetzel  - 2025",
+            "week_from": 16500,
+            "week_to": 16500
+          },
+          {
+            "delta": 0,
+            "month": "Oct",
+            "stage_from": "Develop",
+            "stage_to": "Develop",
+            "title": "Verivox GmbH deal",
+            "week_from": 20000,
+            "week_to": 20000
+          },
+          {
+            "delta": 0,
+            "month": "Oct",
+            "stage_from": "Develop",
+            "stage_to": "Develop",
+            "title": "Koninklijke Gazelle Rijwielfabriek 2025 BV deal",
+            "week_from": 5000,
+            "week_to": 5000
+          },
+          {
+            "delta": 0,
+            "month": "Dec",
+            "stage_from": "Develop",
+            "stage_to": "Develop",
+            "title": "Rogier Lanting van Douglas-hout.nl  WP Winnen in de markt 2024",
+            "week_from": 17500,
+            "week_to": 17500
+          },
+          {
+            "delta": 0,
+            "month": "Oct",
+            "stage_from": "Develop",
+            "stage_to": "Develop",
+            "title": "Sunny Cars Usability (rapporten upselling) deal",
+            "week_from": 6000,
+            "week_to": 6000
+          },
+          {
+            "delta": 0,
+            "month": "Oct",
+            "stage_from": "Discover",
+            "stage_to": "Discover",
+            "title": "Begra Group BV deal - Gürtan - Magazijninrichting - 2025",
+            "week_from": 8500,
+            "week_to": 8500
+          },
+          {
+            "delta": 0,
+            "month": "Oct",
+            "stage_from": "Develop",
+            "stage_to": "Develop",
+            "title": "Vattenfall deal - DDMA Experimentation Heroes - Nominee: Experimentation Culture 7-11-2024",
+            "week_from": 30000,
+            "week_to": 30000
+          }
+        ],
+        "totals": "{\"last_week\": 407250, \"this_week\": 407250, \"delta\": 0}",
+        "weighted_last_week": {
+          "Assess": {
+            "Apr": 0,
+            "Aug": 0,
+            "Dec": 16500,
+            "Feb": 0,
+            "Jan": 0,
+            "Jul": 0,
+            "Jun": 0,
+            "Mar": 0,
+            "May": 0,
+            "Nov": 20000,
+            "Oct": 0,
+            "Sep": 0
+          },
+          "Close": {
+            "Apr": 0,
+            "Aug": 0,
+            "Dec": 0,
+            "Feb": 0,
+            "Jan": 0,
+            "Jul": 0,
+            "Jun": 0,
+            "Mar": 0,
+            "May": 0,
+            "Nov": 0,
+            "Oct": 0,
+            "Sep": 0
+          },
+          "Develop": {
+            "Apr": 0,
+            "Aug": 0,
+            "Dec": 17500,
+            "Feb": 0,
+            "Jan": 0,
+            "Jul": 0,
+            "Jun": 0,
+            "Mar": 0,
+            "May": 0,
+            "Nov": 62500,
+            "Oct": 77500,
+            "Sep": 0
+          },
+          "Discover": {
+            "Apr": 0,
+            "Aug": 0,
+            "Dec": 156750,
+            "Feb": 0,
+            "Jan": 0,
+            "Jul": 0,
+            "Jun": 0,
+            "Mar": 16500,
+            "May": 0,
+            "Nov": 0,
+            "Oct": 8500,
+            "Sep": 0
+          },
+          "Negotiate": {
+            "Apr": 0,
+            "Aug": 0,
+            "Dec": 0,
+            "Feb": 0,
+            "Jan": 0,
+            "Jul": 0,
+            "Jun": 0,
+            "Mar": 0,
+            "May": 0,
+            "Nov": 0,
+            "Oct": 0,
+            "Sep": 0
+          },
+          "Propose": {
+            "Apr": 0,
+            "Aug": 0,
+            "Dec": 0,
+            "Feb": 0,
+            "Jan": 0,
+            "Jul": 0,
+            "Jun": 0,
+            "Mar": 0,
+            "May": 0,
+            "Nov": 0,
+            "Oct": 16500,
+            "Sep": 15000
+          }
+        },
+        "weighted_this_week": {
+          "Assess": {
+            "Apr": 0,
+            "Aug": 0,
+            "Dec": 16500,
+            "Feb": 0,
+            "Jan": 0,
+            "Jul": 0,
+            "Jun": 0,
+            "Mar": 0,
+            "May": 0,
+            "Nov": 20000,
+            "Oct": 0,
+            "Sep": 0
+          },
+          "Close": {
+            "Apr": 0,
+            "Aug": 0,
+            "Dec": 0,
+            "Feb": 0,
+            "Jan": 0,
+            "Jul": 0,
+            "Jun": 0,
+            "Mar": 0,
+            "May": 0,
+            "Nov": 0,
+            "Oct": 0,
+            "Sep": 15000
+          },
+          "Develop": {
+            "Apr": 0,
+            "Aug": 0,
+            "Dec": 17500,
+            "Feb": 0,
+            "Jan": 0,
+            "Jul": 0,
+            "Jun": 0,
+            "Mar": 0,
+            "May": 0,
+            "Nov": 62500,
+            "Oct": 77500,
+            "Sep": 0
+          },
+          "Discover": {
+            "Apr": 0,
+            "Aug": 0,
+            "Dec": 156750,
+            "Feb": 0,
+            "Jan": 0,
+            "Jul": 0,
+            "Jun": 0,
+            "Mar": 16500,
+            "May": 0,
+            "Nov": 0,
+            "Oct": 8500,
+            "Sep": 0
+          },
+          "Negotiate": {
+            "Apr": 0,
+            "Aug": 0,
+            "Dec": 0,
+            "Feb": 0,
+            "Jan": 0,
+            "Jul": 0,
+            "Jun": 0,
+            "Mar": 0,
+            "May": 0,
+            "Nov": 0,
+            "Oct": 0,
+            "Sep": 0
+          },
+          "Propose": {
+            "Apr": 0,
+            "Aug": 0,
+            "Dec": 0,
+            "Feb": 0,
+            "Jan": 0,
+            "Jul": 0,
+            "Jun": 0,
+            "Mar": 0,
+            "May": 0,
+            "Nov": 0,
+            "Oct": 16500,
+            "Sep": 0
+          }
+        }
+      },
+      "total_pipeline_overview": {
+        "ai_key_differences_analysis": {
+          "pipeline_report": {
+            "ai_key_differences_prompt": "You are provided weekly weighted pipeline snapshots (this week vs last week).\nTotals: last week €118,250, this week €124,250 (Δ +6000).\nFor each stage you have current/previous values, absolute & % change, and top contributing deals.\nWrite: (1) a concise overview paragraph of the general trend, (2) 3–5 bullets with the biggest positive/negative stage changes and notable deals, and (3) a short conclusion on pipeline health and next focus.\nKeep it factual and succinct for a leadership slide.",
+            "bullet_points": [
+              "Total moved from €118,250 to €124,250 (+6000).",
+              "Top positive stage: Close (Δ €15,000).",
+              "Top negative stage: Propose (Δ €-9,000).",
+              "Largest deal movers are included per stage; focus on progressing mid-to-late stages to sustain momentum."
+            ],
+            "overview_paragraph": "This week’s weighted pipeline increased by €6,000, with the largest positive movement in Close.",
+            "stage_changes": [
+              {
+                "change_absolute": 15000,
+                "change_percent": 100,
+                "current_value": 15000,
+                "previous_value": 0,
+                "stage": "Close",
+                "top_contributors": [
+                  {
+                    "change_type": "advanced/new",
+                    "deal_title": "ABN AMRO Bank N.V. deal - extra Deep Dive BUUT",
+                    "note": "Stage Propose → Close, Δ +6000",
+                    "weighted_value": 15000
+                  }
+                ]
+              },
+              {
+                "change_absolute": -9000,
+                "change_percent": -47.6,
+                "current_value": 9900,
+                "previous_value": 18900,
+                "stage": "Propose",
+                "top_contributors": [
+                  {
+                    "change_type": "advanced/new",
+                    "deal_title": "ABN AMRO Bank N.V. deal - extra Deep Dive BUUT",
+                    "note": "Stage Propose → Close, Δ +6000",
+                    "weighted_value": 15000
+                  }
+                ]
+              },
+              {
+                "change_absolute": 0,
+                "change_percent": 0,
+                "current_value": 36350,
+                "previous_value": 36350,
+                "stage": "Discover",
+                "top_contributors": [
+                  {
+                    "change_type": "unchanged",
+                    "deal_title": "Buckaroo deal - Bart van Wijk & Kevin Wetzel - 2025",
+                    "note": "Stage Discover → Discover, Δ +0",
+                    "weighted_value": 3300
+                  },
+                  {
+                    "change_type": "unchanged",
+                    "deal_title": "Begra Group BV deal - Gürtan - Magazijninrichting - 2025",
+                    "note": "Stage Discover → Discover, Δ +0",
+                    "weighted_value": 1700
+                  }
+                ]
+              },
+              {
+                "change_absolute": 0,
+                "change_percent": 0,
+                "current_value": 0,
+                "previous_value": 0,
+                "stage": "Assess"
+              },
+              {
+                "change_absolute": 0,
+                "change_percent": 0,
+                "current_value": 63000,
+                "previous_value": 63000,
+                "stage": "Develop",
+                "top_contributors": [
+                  {
+                    "change_type": "unchanged",
+                    "deal_title": "Jeroen Voskuil van Vereniging Eigen Huis",
+                    "note": "Stage Develop → Develop, Δ +0",
+                    "weighted_value": 7000
+                  },
+                  {
+                    "change_type": "unchanged",
+                    "deal_title": "Verivox GmbH deal",
+                    "note": "Stage Develop → Develop, Δ +0",
+                    "weighted_value": 8000
+                  },
+                  {
+                    "change_type": "unchanged",
+                    "deal_title": "Koninklijke Gazelle Rijwielfabriek 2025 BV deal",
+                    "note": "Stage Develop → Develop, Δ +0",
+                    "weighted_value": 2000
+                  }
+                ]
+              },
+              {
+                "change_absolute": 0,
+                "change_percent": 0,
+                "current_value": 0,
+                "previous_value": 0,
+                "stage": "Negotiate"
+              }
+            ]
+          }
+        },
+        "top_movers": [
+          {
+            "delta": 6000,
+            "month": "Sep",
+            "stage_from": "Propose",
+            "stage_to": "Close",
+            "title": "ABN AMRO Bank N.V. deal - extra Deep Dive BUUT",
+            "week_from": 9000,
+            "week_to": 15000
+          },
+          {
+            "delta": 0,
+            "month": "Nov",
+            "stage_from": "Develop",
+            "stage_to": "Develop",
+            "title": "Jeroen Voskuil van Vereniging Eigen Huis",
+            "week_from": 7000,
+            "week_to": 7000
+          },
+          {
+            "delta": 0,
+            "month": "Mar",
+            "stage_from": "Discover",
+            "stage_to": "Discover",
+            "title": "Buckaroo deal - Bart van Wijk & Kevin Wetzel  - 2025",
+            "week_from": 3300,
+            "week_to": 3300
+          },
+          {
+            "delta": 0,
+            "month": "Oct",
+            "stage_from": "Develop",
+            "stage_to": "Develop",
+            "title": "Verivox GmbH deal",
+            "week_from": 8000,
+            "week_to": 8000
+          },
+          {
+            "delta": 0,
+            "month": "Oct",
+            "stage_from": "Develop",
+            "stage_to": "Develop",
+            "title": "Koninklijke Gazelle Rijwielfabriek 2025 BV deal",
+            "week_from": 2000,
+            "week_to": 2000
+          },
+          {
+            "delta": 0,
+            "month": "Dec",
+            "stage_from": "Develop",
+            "stage_to": "Develop",
+            "title": "Rogier Lanting van Douglas-hout.nl  WP Winnen in de markt 2024",
+            "week_from": 7000,
+            "week_to": 7000
+          },
+          {
+            "delta": 0,
+            "month": "Oct",
+            "stage_from": "Develop",
+            "stage_to": "Develop",
+            "title": "Sunny Cars Usability (rapporten upselling) deal",
+            "week_from": 2400,
+            "week_to": 2400
+          },
+          {
+            "delta": 0,
+            "month": "Oct",
+            "stage_from": "Discover",
+            "stage_to": "Discover",
+            "title": "Begra Group BV deal - Gürtan - Magazijninrichting - 2025",
+            "week_from": 1700,
+            "week_to": 1700
+          }
+        ],
+        "totals": "{\"last_week\": 118250, \"this_week\": 124250, \"delta\": 6000}",
+        "weighted_last_week": {
+          "Assess": {
+            "Apr": 0,
+            "Aug": 0,
+            "Dec": 0,
+            "Feb": 0,
+            "Jan": 0,
+            "Jul": 0,
+            "Jun": 0,
+            "Mar": 0,
+            "May": 0,
+            "Nov": 0,
+            "Oct": 0,
+            "Sep": 0
+          },
+          "Close": {
+            "Apr": 0,
+            "Aug": 0,
+            "Dec": 0,
+            "Feb": 0,
+            "Jan": 0,
+            "Jul": 0,
+            "Jun": 0,
+            "Mar": 0,
+            "May": 0,
+            "Nov": 0,
+            "Oct": 0,
+            "Sep": 0
+          },
+          "Develop": {
+            "Apr": 0,
+            "Aug": 0,
+            "Dec": 7000,
+            "Feb": 0,
+            "Jan": 0,
+            "Jul": 0,
+            "Jun": 0,
+            "Mar": 0,
+            "May": 0,
+            "Nov": 25000,
+            "Oct": 31000,
+            "Sep": 0
+          },
+          "Discover": {
+            "Apr": 0,
+            "Aug": 0,
+            "Dec": 31350,
+            "Feb": 0,
+            "Jan": 0,
+            "Jul": 0,
+            "Jun": 0,
+            "Mar": 3300,
+            "May": 0,
+            "Nov": 0,
+            "Oct": 1700,
+            "Sep": 0
+          },
+          "Negotiate": {
+            "Apr": 0,
+            "Aug": 0,
+            "Dec": 0,
+            "Feb": 0,
+            "Jan": 0,
+            "Jul": 0,
+            "Jun": 0,
+            "Mar": 0,
+            "May": 0,
+            "Nov": 0,
+            "Oct": 0,
+            "Sep": 0
+          },
+          "Propose": {
+            "Apr": 0,
+            "Aug": 0,
+            "Dec": 0,
+            "Feb": 0,
+            "Jan": 0,
+            "Jul": 0,
+            "Jun": 0,
+            "Mar": 0,
+            "May": 0,
+            "Nov": 0,
+            "Oct": 9900,
+            "Sep": 9000
+          }
+        },
+        "weighted_this_week": {
+          "Assess": {
+            "Apr": 0,
+            "Aug": 0,
+            "Dec": 0,
+            "Feb": 0,
+            "Jan": 0,
+            "Jul": 0,
+            "Jun": 0,
+            "Mar": 0,
+            "May": 0,
+            "Nov": 0,
+            "Oct": 0,
+            "Sep": 0
+          },
+          "Close": {
+            "Apr": 0,
+            "Aug": 0,
+            "Dec": 0,
+            "Feb": 0,
+            "Jan": 0,
+            "Jul": 0,
+            "Jun": 0,
+            "Mar": 0,
+            "May": 0,
+            "Nov": 0,
+            "Oct": 0,
+            "Sep": 15000
+          },
+          "Develop": {
+            "Apr": 0,
+            "Aug": 0,
+            "Dec": 7000,
+            "Feb": 0,
+            "Jan": 0,
+            "Jul": 0,
+            "Jun": 0,
+            "Mar": 0,
+            "May": 0,
+            "Nov": 25000,
+            "Oct": 31000,
+            "Sep": 0
+          },
+          "Discover": {
+            "Apr": 0,
+            "Aug": 0,
+            "Dec": 31350,
+            "Feb": 0,
+            "Jan": 0,
+            "Jul": 0,
+            "Jun": 0,
+            "Mar": 3300,
+            "May": 0,
+            "Nov": 0,
+            "Oct": 1700,
+            "Sep": 0
+          },
+          "Negotiate": {
+            "Apr": 0,
+            "Aug": 0,
+            "Dec": 0,
+            "Feb": 0,
+            "Jan": 0,
+            "Jul": 0,
+            "Jun": 0,
+            "Mar": 0,
+            "May": 0,
+            "Nov": 0,
+            "Oct": 0,
+            "Sep": 0
+          },
+          "Propose": {
+            "Apr": 0,
+            "Aug": 0,
+            "Dec": 0,
+            "Feb": 0,
+            "Jan": 0,
+            "Jul": 0,
+            "Jun": 0,
+            "Mar": 0,
+            "May": 0,
+            "Nov": 0,
+            "Oct": 9900,
+            "Sep": 0
+          }
+        }
+      },
+      "won_lost_analysis": {
+        "chart_data": "{\"won\": {\"labels\": [], \"series\": [], \"totals_by_reason_value\": [], \"units\": \"count\"}, \"lost\": {\"labels\": [\"Unspecified\"], \"series\": [1], \"totals_by_reason_value\": [6000], \"units\": \"count\"}}",
+        "tables": "{\"won_deals\": [], \"lost_deals\": [{\"deal_title\": \"Sunny Cars Usability (rapporten upselling) deal\", \"total_value\": 6000, \"deal_type\": \"New Business\", \"owner\": \"Merel Schouten\", \"when\": \"2025-09-25 12:43:34\", \"reason\": null}]}",
+        "won_lost_summary": "{\"window\": {\"start\": \"2025-09-24\", \"end\": \"2025-10-01T17:03:38.345Z\"}, \"counts\": {\"won\": 0, \"lost\": 1}, \"values\": {\"won_total\": 0, \"lost_total\": 6000}}"
+      }
+    }
+  },
+  "since": "2025-09-08 00:00:00",
+  "until": "2025-09-14 23:59:59"
+}
