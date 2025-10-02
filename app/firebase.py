@@ -35,11 +35,11 @@ def init_firebase(app: Flask) -> None:
         )
 
     cred: credentials.Base
-    cred: credentials.Base
-    if credentials_path:
-        cred = credentials.Certificate(_load_credentials(credentials_path))
-    elif credentials_json:
+    if credentials_json:
+        # Prioritize JSON string over file path for deployment
         cred = credentials.Certificate(json.loads(credentials_json))
+    elif credentials_path:
+        cred = credentials.Certificate(_load_credentials(credentials_path))
     else:
         cred = credentials.ApplicationDefault()
 
