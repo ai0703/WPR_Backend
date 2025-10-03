@@ -5,7 +5,7 @@ from werkzeug.exceptions import Unauthorized, NotFound, BadRequest
 
 from .models import IngestBody, IngestResponse
 from .normalizers import normalize_payload
-from .storage import get_run, get_runs_matching_window, upsert_payload
+from .storage import get_run, get_runs_matching_window, get_all_runs, upsert_payload
 
 
 api_bp = Blueprint("api", __name__)
@@ -58,18 +58,18 @@ def fetch_runs():
     since = request.args.get("since")
     until = request.args.get("until")
 
-    # If both since and until are provided, filter by date window
-    if since and until:
-        try:
-            runs = get_runs_matching_window(since, until)
-            return jsonify({"since": since, "until": until, "runs": runs})
-        except ValueError as exc:
-            raise BadRequest(str(exc)) from exc
-    
-    # If no date parameters, return all available runs
-    from .storage import get_all_runs
-    all_runs = get_all_runs()
-    return jsonify({"runs": all_runs})
+    # If no parameters provided, return all runs
+    if not since or not until:
+        all_runs = get_all_runs()
+        return jsonify(all_runs)
+
+    # If parameters provided, filter by window
+    try:
+        runs = get_runs_matching_window(since, until)
+    except ValueError as exc:
+        raise BadRequest(str(exc)) from exc
+
+    return jsonify({"since": since, "until": until, "runs": runs})
 
 
 @api_bp.errorhandler(BadRequest)
