@@ -52,21 +52,24 @@ def fetch_run_endpoint(run_id: str):
 
 
 @api_bp.get("/runs")
-def fetch_runs_by_window():
+def fetch_runs():
     _require_token(request.headers.get("Authorization"))
 
     since = request.args.get("since")
     until = request.args.get("until")
 
-    if not since or not until:
-        raise BadRequest("since and until query parameters are required")
-
-    try:
-        runs = get_runs_matching_window(since, until)
-    except ValueError as exc:
-        raise BadRequest(str(exc)) from exc
-
-    return jsonify({"since": since, "until": until, "runs": runs})
+    # If both since and until are provided, filter by date window
+    if since and until:
+        try:
+            runs = get_runs_matching_window(since, until)
+            return jsonify({"since": since, "until": until, "runs": runs})
+        except ValueError as exc:
+            raise BadRequest(str(exc)) from exc
+    
+    # If no date parameters, return all available runs
+    from .storage import get_all_runs
+    all_runs = get_all_runs()
+    return jsonify({"runs": all_runs})
 
 
 @api_bp.errorhandler(BadRequest)

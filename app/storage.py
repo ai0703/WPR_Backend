@@ -15,6 +15,11 @@ def get_run(run_id: str) -> dict[str, Any] | None:
     return fetch_run(run_id)
 
 
+def get_all_runs() -> dict[str, dict[str, Any]]:
+    """Get all runs from the database."""
+    return fetch_all_runs()
+
+
 def get_runs_matching_window(since: str, until: str) -> dict[str, dict[str, Any]]:
     all_runs = fetch_all_runs()
     filtered: dict[str, dict[str, Any]] = {}
